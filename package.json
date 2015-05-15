@@ -1,0 +1,13 @@
+{
+  "name": "resin-nodered",
+  "version": "1.0.0",
+  "description": "Resin NodeRed app",
+  "scripts": {
+    "preinstall": "bash deps.sh",
+    "start": "node node-red/red.js -v"
+  },
+  "author": "Chris Richards <chris.richards@yellowfeather.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "node-red" : ""
+  }
