@@ -2,6 +2,10 @@
   "name": "resin-nodered",
   "version": "1.0.0",
   "description": "Resin NodeRed app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellowfeather/resin-nodered.git"
+  },
   "scripts": {
     "preinstall": "bash deps.sh",
     "start": "node node-red/red.js -v"
