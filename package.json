@@ -8,12 +8,12 @@
   },
   "scripts": {
     "preinstall": "bash deps.sh",
-    "start": "node node-red/red.js -v"
+    "start": "node node_modules/node-red/red.js -v"
   },
   "author": "Chris Richards <chris.richards@yellowfeather.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "node-red" : "0.10.6",
-    "wiring-pi" : "2.0.0"
+    "node-red" : "~0.10.6",
+    "wiring-pi" : "~2.0.0"
   }
 }
