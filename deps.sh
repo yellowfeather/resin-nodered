@@ -4,4 +4,4 @@ set -o errexit
 
 apt-get -q update
 apt-get -q -y upgrade
-apt-get -q -y install libicu-dev libbluetooth-dev
+apt-get -q -y install libicu-dev python-dev python-rpi.gpio
