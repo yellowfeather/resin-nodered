@@ -13,7 +13,7 @@
   "author": "Chris Richards <chris.richards@yellowfeather.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "node-red" : "",
-    "wiring-pi" : ""
+    "node-red" : "0.10.6",
+    "wiring-pi" : "2.0.0"
   }
 }
