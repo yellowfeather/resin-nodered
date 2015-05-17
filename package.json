@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "node-red" : "~0.10.6",
+    "sensortag" : "~1.0.0",
     "wiring-pi" : "~2.0.0"
   }
 }
